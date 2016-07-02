@@ -15,6 +15,7 @@
 		F5D73FAD1D274329007588AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D73FAB1D274329007588AC /* LaunchScreen.storyboard */; };
 		F5D73FB81D274329007588AC /* WaterFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D73FB71D274329007588AC /* WaterFlowLayoutTests.m */; };
 		F5D73FC31D274329007588AC /* WaterFlowLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D73FC21D274329007588AC /* WaterFlowLayoutUITests.m */; };
+		F5D73FD71D2768C1007588AC /* JPWaterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D73FD61D2768C1007588AC /* JPWaterLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F5D73FBE1D274329007588AC /* WaterFlowLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterFlowLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D73FC21D274329007588AC /* WaterFlowLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayoutUITests.m; sourceTree = "<group>"; };
 		F5D73FC41D274329007588AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D73FD51D2768C1007588AC /* JPWaterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPWaterLayout.h; sourceTree = "<group>"; };
+		F5D73FD61D2768C1007588AC /* JPWaterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPWaterLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		F5D73F9C1D274329007588AC /* WaterFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
+				F5D73FD41D2768C1007588AC /* JPWaterLayout */,
 				F5D73FA01D274329007588AC /* AppDelegate.h */,
 				F5D73FA11D274329007588AC /* AppDelegate.m */,
 				F5D73FA31D274329007588AC /* ViewController.h */,
@@ -138,6 +142,15 @@
 				F5D73FC41D274329007588AC /* Info.plist */,
 			);
 			path = WaterFlowLayoutUITests;
+			sourceTree = "<group>";
+		};
+		F5D73FD41D2768C1007588AC /* JPWaterLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F5D73FD51D2768C1007588AC /* JPWaterLayout.h */,
+				F5D73FD61D2768C1007588AC /* JPWaterLayout.m */,
+			);
+			path = JPWaterLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5D73FA51D274329007588AC /* ViewController.m in Sources */,
+				F5D73FD71D2768C1007588AC /* JPWaterLayout.m in Sources */,
 				F5D73FA21D274329007588AC /* AppDelegate.m in Sources */,
 				F5D73F9F1D274329007588AC /* main.m in Sources */,
 			);
